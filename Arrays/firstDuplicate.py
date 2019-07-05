@@ -14,23 +14,23 @@ than the 2nd occurrence of 2.
 
 def firstDuplicate(a):
   # Here we are setting up our Hashset
-  S = set()
+    S = set()
 
   # If our list is less than 2 elements, return the default
-  if len(a) < 2:
-    return -1
+    if len(a) < 2:
+        return -1
 
   # Begin our iteration, check to see if element is a duplicate or not..
 
   # if it is not, add it to the set, if it is just return it
 
   # Since we're returning the element with the smallest index, this will work
-  for i in a:
-    if i not in S:
-      S.add(i)
+    for i in a:
+        if i not in S:
+          S.add(i)
 
-    else:
-      return i
+        else:
+          return i
 
   # Return default
-  return -1
+    return -1

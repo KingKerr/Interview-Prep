@@ -9,15 +9,15 @@ If no 2 numbers sum up to the target sum, return an empty array.
 
 def twoNumberSum(array, targetSum):
 
-  nums = {}
+    nums = {}
 
-  for num in array:
-    potential = targetSum - num
+    for num in array:
+        potential = targetSum - num
 
-    if potential in nums:
-      return sorted([potential, num])
+        if potential in nums:
+            return sorted([potential, num])
 
-    else:
-      nums[num] = True
+        else:
+            nums[num] = True
 
-  return []
+    return []
