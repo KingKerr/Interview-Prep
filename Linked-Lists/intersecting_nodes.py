@@ -15,7 +15,7 @@ def length(head):
 def intersecting_nodes(a, b):
 
   # Calculate the length of both lists
-    m, n = length(m), length(n)
+    m, n = length(a), length(b)
 
   # Establish both pointers
     curr_a, curr_b = a, b
