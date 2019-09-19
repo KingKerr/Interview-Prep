@@ -8,6 +8,7 @@ Examples:
 
 [1, -1, 1, -1] will return False.
 
+
 """
 
 
@@ -27,3 +28,10 @@ def getNextIdx(currentIdx, array):
     nextIdx = (jump + currentIdx) % len(array)
 
     return nextIdx if nextIdx >= 0 else nextIdx + len(array)
+
+"""
+Runtime: O(N) in which N is length of the array
+
+Space: 0(1)
+
+"""
