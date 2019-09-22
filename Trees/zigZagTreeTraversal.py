@@ -4,7 +4,7 @@ Give an algorithm that traverses a Binary Tree in Zigzag order. An example is as
           1
         /   \
        2     3
-      /  \   /  \
+      / \  /  \
      4   5 6    7
 
 The output here should be: 1, 2, 3, 4, 5, 6, 7
