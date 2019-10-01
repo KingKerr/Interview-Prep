@@ -25,3 +25,20 @@ def levelOrderTraversal(self, root):
 Runtime is O(N) and Space is O(N)
 
 """
+"""
+Another implementation below
+
+"""
+
+def levelOrderTraversal2(self, root):
+    if root is None:
+        return None
+    final, stack = [], [root]
+    while stack:
+        node = stack.pop(0)
+        final.append(node.value)
+        if node.left:
+            stack.append(node.left)
+        if node.right:
+            stack.append(node.right)
+    return final
