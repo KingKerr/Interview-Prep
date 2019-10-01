@@ -7,7 +7,7 @@ only plus(+) and minus(-) signs. An example is:
 
 """
 
-def reconstruct(array):
+def reconstructArray(array):
     answer = []
     n = len(array)
     stack = []
