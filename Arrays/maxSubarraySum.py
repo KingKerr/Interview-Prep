@@ -20,7 +20,7 @@ def maximum_circular_subarray(arr):
 
 
 """
-We're going to go with Kandane's Algorithm here.
+We're going to go with Kadane's Algorithm here.
 
 """
 
